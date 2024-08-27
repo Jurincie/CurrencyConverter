@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EFE0BBEE-99C1-4C06-B930-2373491CC645"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "973AD9EB-96EE-4427-B6E2-A3F1CC53CED4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/Currency.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53EBDF54-022A-45DA-BD2E-F283C1940FD4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "034FE704-36D9-4253-A82F-56927205A505"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetch(countryCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "503F0942-A294-4EEF-B731-618DD0356223"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "fetch(countryCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5899BC2D-DFA8-482C-AD09-46AFB185FDF8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetch(countryCode:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5899BC2D-DFA8-482C-AD09-46AFB185FDF8 - 85ad151b58802bda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for static CurrencyConverter.NetworkManager.fetch(countryCode: Swift.String) async throws -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45">
+               </Location>
+               <Location
+                  uuid = "5899BC2D-DFA8-482C-AD09-46AFB185FDF8 - d01583fcae6e95e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for static CurrencyConverter.NetworkManager.fetch(countryCode: Swift.String) async throws -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59D45506-91B5-425B-ABA9-6C25B03C605D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetch(countryCode:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C096F42-47E6-4B8F-B361-C4AA62D6ED41"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "076E5053-F417-461B-8AEE-870349D499A1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/Webservice.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchData(fromUrl:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "076E5053-F417-461B-8AEE-870349D499A1 - 46c1bc1861b92603"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CurrencyConverter.WebService.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(fromUrl: Swift.String) async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "076E5053-F417-461B-8AEE-870349D499A1 - d9c5260ef2543cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CurrencyConverter.WebService.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(fromUrl: Swift.String) async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+               <Location
+                  uuid = "076E5053-F417-461B-8AEE-870349D499A1 - 35a6faa765179a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CurrencyConverter.WebService.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(fromUrl: Swift.String) async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2377579B-D895-4E78-9792-DA785B88EDD3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverter/Webservice.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "updateDataInDatabase(modelContext:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2377579B-D895-4E78-9792-DA785B88EDD3 - 63a47372a88a95a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CurrencyConverter.WebService.updateDataInDatabase(modelContext: SwiftData.ModelContext) async -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "2377579B-D895-4E78-9792-DA785B88EDD3 - 8e91f20bee87244e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for CurrencyConverter.WebService.updateDataInDatabase(modelContext: SwiftData.ModelContext) async -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "2377579B-D895-4E78-9792-DA785B88EDD3 - 93da0a653893e197"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for CurrencyConverter.WebService.updateDataInDatabase(modelContext: SwiftData.ModelContext) async -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "2377579B-D895-4E78-9792-DA785B88EDD3 - cbe715e3f09f4b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for CurrencyConverter.WebService.updateDataInDatabase(modelContext: SwiftData.ModelContext) async -&gt; ()"
+                  moduleName = "CurrencyConverter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronjurincie/Desktop/CurrencyConverter/CurrencyConverter/Webservice.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
