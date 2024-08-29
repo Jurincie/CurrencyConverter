@@ -11,15 +11,59 @@ import SwiftUI
 struct ConversionView: View {
     @Environment(\.modelContext) var modelContext
     let storeModel = StoreModel(webservice: Webservice())
+    
+    @State private var messages = [String]()
+    @State private var amount = ""
+    @State private var fromCurrency: String = "USD"
+    @State private var toCurrency: String = "CAD"
   
     var body: some View {
-        let numQuotes = 23
-        Text("\(numQuotes)")
+        VStack {
+            PickersView(fromCurrency: $fromCurrency,
+                        toCurrency: $toCurrency)
+            
+            TextField("Amount", text: $amount)
+                .padding()
+                .multilineTextAlignment(.center)
+                .keyboardType(.numberPad)
+                .font(.title)
+            
+            Button(action: {
+                //
+            }, label: {
+                Text("CONVERT")
+                    .buttonStyle(.borderedProminent)
+                .font(.title)
+                .disabled(messages.count > 0)
+            })
+        }
         .task {
-            await storeModel.webService().updateDataInDatabase(modelContext: modelContext)
+            await storeModel.webservice.updateDataInDatabase(modelContext: modelContext)
         }
         .refreshable {
-            await storeModel.webService().updateDataInDatabase(modelContext: modelContext)
+            await storeModel.webservice.updateDataInDatabase(modelContext: modelContext)
+        }
+    }
+}
+
+struct PickersView: View {
+    @State private var currencies = ["US DOLLAR": "USD", "CANADIAN DOLLAR": "CAD", "EURO": "EUR"]
+    @Binding var fromCurrency: String
+    @Binding var toCurrency: String
+    
+    var body: some View {
+        HStack(alignment: .center, spacing: 5) {
+            Picker("From:", selection: $fromCurrency) {
+                ForEach(currencies.sorted(by: >), id: \.key) { key, value in
+                    Text(key)
+                }
+            }
+            
+            Picker("To:", selection: $toCurrency) {
+                ForEach(currencies.sorted(by: >), id: \.key) { key, value in
+                    Text(key)
+                }
+            }
         }
     }
 }
