@@ -12,32 +12,6 @@ enum PlistError: Error {
     case unknownError
 }
 
-@Observable
-class Currency: Identifiable, Hashable {
-    let code: String
-    let name: String
-    let symbol: String
-    let imageName: String
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(code)
-    }
-    
-    static func == (lhs: Currency, rhs: Currency) -> Bool {
-        lhs.code == rhs.code
-    }
-    
-    init(code: String = "",
-         name: String = "",
-         symbol: String = "",
-         imageName: String = "") {
-        self.code = code
-        self.name = name
-        self.symbol = symbol
-        self.imageName = imageName
-    }
-}
-
 @MainActor
 @Observable
 final class StoreModel: Sendable {

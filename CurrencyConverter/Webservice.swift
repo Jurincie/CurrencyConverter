@@ -39,6 +39,7 @@ final class Webservice: Sendable {
             print("Failed to decode response into the given type")
         } catch {
             print("An error occured downloading the data")
+            print(error.localizedDescription)
         }
         
         return nil
